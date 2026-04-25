@@ -478,12 +478,12 @@ export function generatePDFReport(data: ReportData, pdfPassword: string): void {
   doc.text('Equipo de Auditoría Ethical Hacking:', margin, y);
   y += 8;
   const team = [
-    {name: 'Catalina Caris', role: 'Líder de Auditoría'},
-    {name: 'Oscar Hernández', role: 'Analista de Vulnerabilidades'},
-    {name: 'Victor Aguilera', role: 'Especialista en Explotación'},
-    {name: 'Carlos Tapia', role: 'Ingeniero de Redes'},
-    {name: 'Israel Monárrez', role: 'Analista de Malware'},
-    {name: 'Jeison Sánchez', role: 'Coordinador de Reportes'}
+    {name: 'Auditor Jefe Default', role: 'Líder de Auditoría'},
+    {name: 'Analista Default 1', role: 'Analista de Vulnerabilidades'},
+    {name: 'Especialista Default', role: 'Especialista en Explotación'},
+    {name: 'Ingeniero Default', role: 'Ingeniero de Redes'},
+    {name: 'Analista Default 2', role: 'Analista de Malware'},
+    {name: 'Coordinador Default', role: 'Coordinador de Reportes'}
   ];
   team.forEach(member => {
     checkPage(7);
